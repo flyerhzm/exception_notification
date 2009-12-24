@@ -2,7 +2,7 @@
 
 This forked exception_notification generates test codes that can reproduce
 the exception in production rails application. It is inspired by railscasts
-episode 187, Testing Exception[link:http://github.com/flyerhzm/exception_notification].
+episode 187, {Testing Exception}[http://github.com/flyerhzm/exception_notification].
 
 The Exception Notifier plugin provides a mailer object and a default set of
 templates for sending email notifications when errors occur in a Rails
