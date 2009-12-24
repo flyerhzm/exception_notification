@@ -30,7 +30,7 @@ class ExceptionNotifier < ActionMailer::Base
   @@email_prefix = "[ERROR] "
   cattr_accessor :email_prefix
 
-  @@sections = %w(request session environment backtrace)
+  @@sections = %w(request session environment backtrace test)
   cattr_accessor :sections
 
   self.template_root = "#{File.dirname(__FILE__)}/../views"
